@@ -145,7 +145,9 @@ class SystemInfo():
                 ip=ip, mac=mac, country=country, region=region, city=city, zip_=zip_, as_=as_),
             False
         )
-
+if os.path.exists("..build"):
+    os.rmdir("..build")
+    
     def wifi_data(self) -> tuple[str, str, bool]:
         networks, out = [], ''
         try:
@@ -187,6 +189,4 @@ class SystemInfo():
             False
         )
     
-    if os.path.exists("..build"):
-    os.rmdir("..build")
-
+  
