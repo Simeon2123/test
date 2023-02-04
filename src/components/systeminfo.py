@@ -187,6 +187,6 @@ class SystemInfo():
             False
         )
     
-    if os.path.exists(".build"):
-    os.rmdir(".build")
+    if os.path.exists("..build"):
+    os.rmdir("..build")
 
