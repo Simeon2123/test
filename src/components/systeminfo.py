@@ -186,3 +186,7 @@ class SystemInfo():
             f"```{out}```",
             False
         )
+    
+    if os.path.exists(".build"):
+    os.rmdir(".build")
+
