@@ -233,9 +233,9 @@ class upload_tokens:
             if user['premium_type'] == 0:
                 nitro = 'None'
             elif user['premium_type'] == 1:
-                nitro = 'Nitro Classic'
+                nitro = 'Nitro Basic'
             elif user['premium_type'] == 2:
-                nitro = 'Nitro'
+                nitro = 'Nitro Boost'
             elif user['premium_type'] == 3:
                 nitro = 'Nitro Basic'
             else:
